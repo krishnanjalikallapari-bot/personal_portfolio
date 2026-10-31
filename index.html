@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Krishnanjali Kallapari — CSE student and aspiring web developer portfolio.">
+  <title>Krishnanjali Kallapari | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Krishnanjali home">
+      <span class="brand-mark">K<span>.</span></span>
+      <span class="brand-name">krishnanjali<span class="brand-dot">.dev</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Switch theme"><span id="themeIcon">☼</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <h1>Hi, I'm<br><span class="gradient-text">Krishnanjali.</span></h1>
+        <h2>CSE Student <span class="muted">&</span> <span class="typing-accent">Aspiring Developer</span></h2>
+        <p class="hero-description">I’m learning to turn ideas into useful, thoughtful digital experiences—one line of code at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌁</span> Kurnool, Andhra Pradesh</span>
+          <span><span class="meta-icon">✳</span> B.Tech · CSE · 2028</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="window-bar"><span></span><span></span><span></span><small>hello_world.js</small></div>
+          <div class="code-lines">
+                  <img src="c:\Users\K.Krishnanjali\OneDrive\Pictures\Samsung Gallery\krishnanjali.jpeg" alt="A photo of Anjali"><figcaption>My image</figcaption></img>
+            <p><span class="line-no">01</span> <span class="code-purple">const</span> developer = {</p>
+            <p><span class="line-no">02</span> &nbsp; name: <span class="code-green">'Krishnanjali'</span>,</p>
+            <p><span class="line-no">03</span> &nbsp; focus: <span class="code-green">'Web Dev'</span>,</p>
+            <p><span class="line-no">04</span> &nbsp; learning: <span class="code-green">'Every day'</span>,</p>
+            <p><span class="line-no">05</span> &nbsp; build: <span class="code-blue">() =&gt;</span> <span class="code-green">'Ideas'</span></p>
+            <p><span class="line-no">06</span> };</p>
+            <p class="code-last"><span class="line-no">07</span> <span class="code-purple">console</span>.log(developer);<span class="cursor">▍</span></p>
+          </div>
+          <div class="floating-chip chip-top">✦ Curious mind</div>
+          <div class="floating-chip chip-bottom"><span class="chip-pulse"></span> Currently learning</div>
+        </div>
+        <div class="hero-spark spark-one">✳</div><div class="hero-spark spark-two">+</div>
+      </div>
+      <a href="#about" class="scroll-cue"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>A little about <span class="gradient-text">me.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-intro">
+          <p class="large-copy">I’m a computer science student who enjoys learning how technology works and using it to solve everyday problems.</p>
+          <p>My current focus is strengthening my programming fundamentals and building responsive websites with HTML, CSS, and JavaScript. I believe progress comes from staying curious, practising consistently, and being willing to try again.</p>
+          <a class="text-link" href="#contact">Have a project idea? Let's talk <span>↗</span></a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><span class="stat-number">2028</span><span class="stat-label">Expected graduation</span></div>
+          <div class="stat-card"><span class="stat-number">03<span class="stat-plus">+</span></span><span class="stat-label">Languages explored</span></div>
+          <div class="stat-card stat-wide"><span class="stat-symbol">✦</span><div><strong>Student mindset</strong><span class="stat-label">Learning, building, improving</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><span class="section-index">02 / TOOLKIT</span><h2>Tools I’m <span class="gradient-text">exploring.</span></h2><p>My skills are growing with every lesson and project.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-symbol html-symbol">5</span><h3>HTML5</h3><p>Semantic page structure</p><div class="skill-track"><span style="width:78%"></span></div></article>
+        <article class="skill-card"><span class="skill-symbol css-symbol">✳</span><h3>CSS3</h3><p>Responsive styling & layouts</p><div class="skill-track"><span style="width:70%"></span></div></article>
+        <article class="skill-card"><span class="skill-symbol js-symbol">JS</span><h3>JavaScript</h3><p>Interactive web experiences</p><div class="skill-track"><span style="width:52%"></span></div></article>
+        <article class="skill-card"><span class="skill-symbol python-symbol">Py</span><h3>Python</h3><p>Programming fundamentals</p><div class="skill-track"><span style="width:58%"></span></div></article>
+        <article class="skill-card"><span class="skill-symbol java-symbol">J</span><h3>Java</h3><p>Object-oriented programming</p><div class="skill-track"><span style="width:48%"></span></div></article>
+        <article class="skill-card"><span class="skill-symbol git-symbol">⌘</span><h3>Git & GitHub</h3><p>Version control basics</p><div class="skill-track"><span style="width:50%"></span></div></article>
+      </div>
+      <p class="skills-note"><span>↗</span> Skill indicators are self-assessed learning progress, not formal test scores.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading section-heading-row"><div><span class="section-index">03 / SELECTED WORK</span><h2>Things I’m <span class="gradient-text">building.</span></h2></div><span class="project-count">01—02</span></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual complaint-visual"><div class="visual-top"><span>STUDENT PORTAL</span><span>✳</span></div><div class="portal-ui"><div class="portal-sidebar"><i></i><i></i><i></i><i></i></div><div class="portal-main"><span class="portal-label">MY COMPLAINTS</span><div class="portal-row"><b>Hostel water issue</b><em class="pending">Pending</em></div><div class="portal-row"><b>Lab equipment</b><em class="resolved">Resolved</em></div><div class="portal-row"><b>Classroom lights</b><em class="working">Processing</em></div></div></div><span class="visual-caption">Organise issues. Track progress.</span></div>
+          <div class="project-info"><div class="project-topline"><span class="project-type">WEB APPLICATION</span><span class="project-number">01</span></div><h3>Student Complaint Portal</h3><p>A student-focused portal concept for submitting college or hostel issues and checking whether they are pending, processing, or resolved.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>Python / Flask</span><span>SQLite</span></div><button class="project-open" data-project="complaint" aria-label="View Student Complaint Portal details">View project details <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual portfolio-visual"><div class="mini-browser"><div class="mini-browser-top"><span></span><span></span><span></span></div><div class="mini-browser-body"><div class="mini-avatar">K.</div><div class="mini-line mini-line-long"></div><div class="mini-line"></div><div class="mini-pills"><i></i><i></i><i></i></div><div class="mini-boxes"><i></i><i></i><i></i></div></div></div><div class="portfolio-orbit"></div><span class="portfolio-label">YOUR NEXT CHAPTER</span></div>
+          <div class="project-info"><div class="project-topline"><span class="project-type">PERSONAL WEBSITE</span><span class="project-number">02</span></div><h3>Developer Portfolio</h3><p>A responsive personal website to introduce myself, showcase my learning journey, share projects, and make it easy to connect.</p><div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div><button class="project-open" data-project="portfolio" aria-label="View Developer Portfolio details">View project details <span>↗</span></button></div>
+        </article>
+      </div>
+      <p class="project-disclaimer">Portfolio note: these cards describe project work and concepts. Update each card with a live demo or repository link when you publish your projects.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading"><span class="section-index">04 / LEARNING PATH</span><h2>Where it <span class="gradient-text">started.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2024 — 2028 (EXPECTED)</div><h3>B.Tech in Computer Science & Engineering</h3><p>Ashoka Women’s Engineering College</p><span class="timeline-badge">Currently studying</span></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">INTERMEDIATE</div><h3>MPC</h3><p>Vasavi Junior College</p></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">SCHOOLING</div><h3>SSC</h3><p>Panyam Cements High School</p></div>
+      </div>
+      <div class="resume-panel"><div class="resume-icon">↗</div><div><h3>Want to know more?</h3><p>Add your latest resume PDF to this project to make it available here.</p></div><a class="button button-secondary" href="#contact">Request resume <span>↗</span></a></div>
+    </section>
+
+    <section class="section-wrap section-block contact-section" id="contact">
+      <div class="contact-card">
+        <div class="contact-decoration">✳</div>
+        <span class="section-index">05 / SAY HELLO</span>
+        <h2>Let’s make something<br><span class="gradient-text">meaningful.</span></h2>
+        <p>I’m always happy to connect, learn from others, and explore opportunities to grow as a developer.</p>
+        <a class="button button-primary" href="mailto:krishnanjalikallapari@gmail.com">Send me an email <span>↗</span></a>
+        <div class="social-links">
+          <a href="https://github.com/krishnanjalikallapari-bot" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/krishnanjali-kallapari-2a4029420?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" title="Replace with your personal LinkedIn profile URL">LinkedIn <span>↗</span></a>
+          <button id="krishnanjalikallapari152007@gmail.com" type="button">Copy email <span>⧉</span></button>
+        </div>
+        <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">K<span>.</span></span><span class="brand-name">krishnanjali<span class="brand-dot">.dev</span></span></a><p>Designed & built while learning. <span>♥</span></p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-card"><button class="modal-close" id="modalClose" aria-label="Close project details">×</button><span class="section-index" id="modalLabel">PROJECT DETAILS</span><h2 id="modalTitle">Project title</h2><p id="modalDescription"></p><h3>Highlights</h3><ul id="modalFeatures"></ul><div class="tag-list" id="modalTags"></div><p class="modal-note">Add your real repository/demo URL here once it is available.</p></div>
+  </div>
+</body>
+</html>
